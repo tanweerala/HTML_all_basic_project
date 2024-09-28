@@ -1,0 +1,63 @@
+<html>
+<head>
+ <style>
+  table
+  {
+  	border:3px silver solid;
+  	margin:auto;
+  	margin-top:20px;
+  	border-radius: 5px;
+  	background-image: url(images/ad.jpg) 
+  }
+  .pa
+  {
+  	padding:13px;
+  }
+  .la
+  {
+  	color:blue;
+  	font-family: cursive;
+  	font-size:23px;
+  }
+  input[type]
+  {
+  	font-size:19px;
+  }
+  .bt
+  {
+  	font-size:18px;
+  	padding:3px 15px;
+  	background-color:black;
+  	color:white;
+  	border-radius:5px
+  }
+ </style>
+</head>
+<body>
+  <form>
+   <table>
+    <tr>
+     <td class="pa">
+     	<label class="la">Enter user id</label>
+     </td>
+     <td class="pa">
+     	<input type="text" name="uid" id="uid" required>
+     </td>
+    </tr>
+    <tr>
+     <td class="pa">
+     	<label class="la">Enter password</label>
+     </td>
+     <td class="pa">
+     	<input type="password" name="pass" id="pass" required>
+     </td>
+    </tr>
+    <tr>
+     <td class="pa" colspan="2" align="right">
+        <button class="bt">Submit</button>
+     </td>
+    </tr>
+   </table>
+  </form>
+</body>
+</html>

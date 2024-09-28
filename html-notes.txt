@@ -1,0 +1,72 @@
+HTML(Hyper text markup language)
+================================
+It is full of tags
+These tags are used to design web pages
+These tags are not case censitive and not compiled
+These tags are interpreted by web browser
+Root tag of HTML is <html>
+Remember few HTML tags are empty and few tags are container
+
+Using empty tag
+<tag attributes1="value1">
+
+Using container tag
+<tag attributes1="value1">
+ contents(It could be value as well as tag as well as both)
+</tag>
+
+<tag>
+  This is tag
+  <tag1>Value</tag1>
+</tag>
+
+<html> tag has following two subtags
+1)<head>
+2)<body>
+
+
+<html>
+ <head>
+  <title>Cetpa Infotech</title> 
+ </head> 
+ <body>
+  <h2>This is example of HTML</h2>
+ </body> 
+</html>
+
+URL of the page
+================
+http://localhost:8080/demo/home.html
+URL stands for uniform reosurce locator
+Every page on web server has an unique URL
+This URL can be treated as address of page on web server
+URL consists of following four things
+1)Protocol-->http
+2)IP address-->It could be as 127.0.0.1 or localhost or other ip address
+3)Port number-->8080
+4)Resource name-->demo/home.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
